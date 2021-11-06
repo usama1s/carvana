@@ -390,6 +390,7 @@ top: 5px; */
   margin: 0;
   border-radius: 2px;
   position: relative;
+  min-width: 30px;
 }
 
 .form-check input+.custom-label img {
@@ -428,7 +429,7 @@ top: 5px; */
 }
 
 .yn-btns{
-  width: 350px;
+  width: 200px;
   border: 1px solid rgb(217, 221, 233);
   border-right: 0;
 }

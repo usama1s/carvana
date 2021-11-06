@@ -7,3 +7,15 @@
     border: 0;
   }
 }
+@media (max-width:576px) {
+  .th-btns label{
+    border: 1px solid rgb(217, 221, 233);
+    margin-bottom: 10px;
+  }
+  .th-btns .row>div{
+    padding: 0 15px !important;
+  }
+  .form-color-check{
+    width: 150px;
+  }
+}
