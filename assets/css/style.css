@@ -245,7 +245,7 @@ a {
   max-width: 350px;
   margin: auto;
   display: block;
-  background: transparent;
+  background: white;
   display: flex;
   align-items: center;
   justify-content: center;
@@ -391,6 +391,7 @@ top: 5px; */
   border-radius: 2px;
   position: relative;
   min-width: 30px;
+  background: white;
 }
 
 .form-check input+.custom-label img {
@@ -447,7 +448,7 @@ top: 5px; */
   max-width: 350px;
   margin: auto;
   display: block;
-  background: transparent;
+  background: white;
 display: flex;
 align-items: center;
 justify-content: center;
@@ -459,4 +460,7 @@ justify-content: center;
 .yn-btns input:checked+label{
   background: rgb(0, 97, 158);
 color: white;
+}
+.colors-list{
+  text-align: center;
 }

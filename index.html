@@ -536,8 +536,91 @@
 
 <hr class="c-hr">
 
+<p> <b>Does your vehicle need mechanical repairs or display dashboard warning?</b></p>
 
-              <h2 class="sub-title mb-3">Does your vehicle have any exterior damage?</h2>
+<label class="form-check w-100" for="egn-light">
+  <div class="">
+    <input class="form-check-input" type="checkbox" name="mech-damage" id="egn-light">
+    <label class="custom-label" for="egn-light">
+      <img src="assets/images/check-c.svg" alt="">
+    </label>
+    <label class="form-check-label default-t pl-4" for="egn-light">
+      Enginer (e.g. check engine light on dashboard)
+    </label>
+  </div>
+</label>
+
+<label class="form-check w-100" for="transmission">
+  <div class="">
+    <input class="form-check-input" type="checkbox" name="mech-damage" id="transmission">
+    <label class="custom-label" for="transmission">
+      <img src="assets/images/check-c.svg" alt="">
+    </label>
+    <label class="form-check-label default-t pl-4" for="transmission">
+      Transmission
+    </label>
+  </div>
+</label>
+
+<label class="form-check w-100" for="acccc">
+  <div class="">
+    <input class="form-check-input" type="checkbox" name="mech-damage" id="acccc">
+    <label class="custom-label" for="acccc">
+      <img src="assets/images/check-c.svg" alt="">
+    </label>
+    <label class="form-check-label default-t pl-4" for="acccc">
+      Air conditioning
+    </label>
+  </div>
+</label>
+
+<label class="form-check w-100" for="electrical">
+  <div class="">
+    <input class="form-check-input" type="checkbox" name="mech-damage" id="electrical">
+    <label class="custom-label" for="electrical">
+      <img src="assets/images/check-c.svg" alt="">
+    </label>
+    <label class="form-check-label default-t pl-4" for="electrical">
+      Electrical (e.g. SRS/airbag light on dashboard)
+    </label>
+  </div>
+</label>
+
+<label class="form-check w-100" for="t-pres">
+  <div class="">
+    <input class="form-check-input" type="checkbox" name="mech-damage" id="t-pres">
+    <label class="custom-label" for="t-pres">
+      <img src="assets/images/check-c.svg" alt="">
+    </label>
+    <label class="form-check-label default-t pl-4" for="t-pres">
+      Tire pressure (e.g. TPMS/tire pressure light on dashboard)
+    </label>
+  </div>
+</label>
+
+<hr class="c-hr">
+
+<p> <b>Are there any modifications ot yoru vehicle (e.g. suspension, engine, etc.)?</b> </p>
+
+<div class="yn-btns mt-3">
+  <div class="d-flex  row ">
+    <div class="col-6 pr-0">
+      <input id="modyes" type="radio" name="mod" value="" hidden>
+      <label for="modyes" class="flex-fill" type="button" name="button">Yes</label>
+
+    </div>
+    <div class="col-6 pl-0">
+      <input id="modno" type="radio" name="mod" value="" hidden>
+      <label for="modno" class="flex-fill active" type="button" name="button">No</label>
+
+    </div>
+  </div>
+</div>
+
+<hr class="c-hr">
+
+
+              <p> <b>Does your vehicle have any exterior damage?</b></p>
 
               <label class="form-check w-100" for="scratches">
                 <div class="">
@@ -589,7 +672,7 @@
 
 <hr class="c-hr">
 
-              <h2 class="sub-title mb-3">Does your vehicle have any interior damage beyond normal wear?</h2>
+              <p> <b> Does your vehicle have any interior damage beyond normal wear? </b></p>
 
               <label class="form-check w-100" for="stains">
                 <div class="">
@@ -738,9 +821,6 @@
 
 
 
-
-
-                <hr class="c-hr">
 
 
 
