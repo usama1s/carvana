@@ -98,7 +98,6 @@ button, button:hover, button:active, button:visited, button:focus {
   background: lightgrey;
   color: white;
   border: 1px solid transparent;
-
   transition: 0.3s;
   cursor: pointer;
   font-weight: bold;
@@ -106,11 +105,13 @@ button, button:hover, button:active, button:visited, button:focus {
   max-width: 325px;
   /* cursor: none; */
 }
-.b-btn.active{
-background: rgb(0, 174, 217);
-border: 1px solid rgb(0, 174, 217);
-cursor: pointer;
+
+.b-btn.active {
+  background: rgb(0, 174, 217);
+  border: 1px solid rgb(0, 174, 217);
+  cursor: pointer;
 }
+
 .b-btn.active:hover {
   color: rgb(0, 174, 217);
   background: white;
@@ -181,22 +182,23 @@ a {
 .car-info .info-side p span {
   font-weight: bold;
 }
-.offer-sec .card{
+
+.offer-sec .card {
   margin-bottom: 1px;
 }
-.offer-sec .card-header{
+
+.offer-sec .card-header {
   background: rgb(0, 97, 158);
-border-radius: 0;
+  border-radius: 0;
   margin-top: 0px;
   padding: 10px 25px 10px 25px;
 }
+
 .offer-sec .card-header button {
   color: rgb(207, 234, 242);
   font-size: 18px;
   line-height: 28px;
 }
-
-
 
 .offer-sec .card-header button span {
   background: rgb(207, 234, 242);
@@ -208,29 +210,34 @@ border-radius: 0;
   opacity: 0.5;
   display: block;
 }
-.offer-sec .card-header button p{
 
-}
-.offer-sec .card-header button b{
+.offer-sec .card-header button p {}
+
+.offer-sec .card-header button b {
   text-transform: uppercase;
   font-weight: bold;
 }
-.offer-sec .card-body{
-    padding: 10px 25px 20px 25px;
+
+.offer-sec .card-body {
+  padding: 10px 25px 20px 25px;
 }
+
 .offer-sec .card-body p {
   color: rgb(117, 121, 137);
   font-size: 16px;
   line-height: 24px;
 }
 
-.th-btns{
-    border: 1px solid rgb(217, 221, 233);
+.th-btns {
+  border: 1px solid rgb(217, 221, 233);
+  border-right: 0;
 }
-.th-btns button{
+
+.th-btns label {
   text-transform: uppercase;
   font-size: 16px;
-  text-align: center;height: 36px;
+  text-align: center;
+  height: 36px;
   width: 100%;
   border: 0;
   border-right: 1px solid rgb(217, 221, 233);
@@ -239,183 +246,216 @@ border-radius: 0;
   margin: auto;
   display: block;
   background: transparent;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+
 }
-.th-btns button.active{
+.th-btns input:checked+label,
+.th-btns button.active {
   background: rgb(0, 97, 158);
   color: white;
 }
+
 /* .th-btns button:nth-last-of-type(1){
   border-right: 0;
 } */
-.c-hr{
-background: rgb(217, 221, 233);
-width: 100%;
-height: 1px;
-border: 0;
-margin: 20px 0;
+.c-hr {
+  background: rgb(217, 221, 233);
+  width: 100%;
+  height: 1px;
+  border: 0;
+  margin: 20px 0;
 }
 
-
-
-
-.form-color-check{
+.form-color-check {
   width: 157px;
-
   /* height: 60px; */
   /* justify-content: center; */
-display: inline-block;
-padding: 10px !important;
-cursor: pointer;
-border: 1px solid transparent;
-transition: border 0.3s;
+  display: inline-block;
+  padding: 10px !important;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border 0.3s;
 }
-.form-color-check:hover{
-border: 1px solid rgb(217, 221, 233);
+
+.form-color-check:hover {
+  border: 1px solid rgb(217, 221, 233);
 }
-.form-color-check>div{
+
+.form-color-check>div {
   display: flex;
   height: 40px;
   align-items: center;
-cursor: pointer;
+  cursor: pointer;
 }
-.form-color-check input{
+
+.form-color-check input {
   display: none;
 }
-.form-color-check input+.custom-label{
+
+.form-color-check input+.custom-label {
   width: 30px;
   height: 30px;
   cursor: pointer;
-
-/* border: 1px solid #232323; */
-/* position: absolute;
+  /* border: 1px solid #232323; */
+  /* position: absolute;
 left: 0;
 top: 5px; */
-margin: 0;
-border-radius: 50%;
-position: relative;
-
-
+  margin: 0;
+  border-radius: 50%;
+  position: relative;
 }
-.form-color-check input+.custom-label img{
+
+.form-color-check input+.custom-label img {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
-width: 50%;
-height: auto;
-visibility: hidden;
-
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: auto;
+  visibility: hidden;
 }
-.form-color-check input:checked+.custom-label{
+
+.form-color-check input:checked+.custom-label {
   border: 2px solid white !important;
   /* box-shadow: 4px ​3px 20px #0000009; */
   box-shadow: 1px 1px 26px #00000090;
-
 }
-.form-color-check input:checked+.custom-label img{
+
+.form-color-check input:checked+.custom-label img {
   /* display: block; */
   visibility: visible;
 }
 
-.form-color-check .form-color-check-label{
+.form-color-check .form-color-check-label {
   color: rgb(117, 121, 137);
-font-size: 16px;
-line-height: 24px;
-text-transform: capitalize;
-padding-left: 10px;
-cursor: pointer;
-transition: color 0.3s;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
 }
-.form-color-check:hover .form-color-check-label{
+
+.form-color-check:hover .form-color-check-label {
   color: black
 }
+
 /* .form-color-check .custom-label */
-
-
-
-.j-check{
+.j-check {
   width: 20px;
   height: 20px;
   background: #03fc28;
   border-radius: 50%;
 }
-.j-check img{
+
+.j-check img {
   width: 60%;
 }
 
-
-
-
-
-
-.form-check{
+.form-check {
   width: 233px;
-
   /* height: 60px; */
   /* justify-content: center; */
-display: inline-block;
-padding: 0 !important;
-cursor: pointer;
-border: 1px solid transparent;
-transition: border 0.3s;
+  display: inline-block;
+  padding: 0 !important;
+  cursor: pointer;
+  border: 1px solid transparent;
+  transition: border 0.3s;
 }
+
 /* .form-check:hover{
 border: 1px solid rgb(217, 221, 233);
 } */
-.form-check>div{
+.form-check>div {
   display: flex;
   height: 40px;
   align-items: center;
-cursor: pointer;
+  cursor: pointer;
 }
-.form-check input{
+
+.form-check input {
   display: none;
 }
-.form-check input+.custom-label{
+
+.form-check input+.custom-label {
   width: 30px;
   height: 30px;
   cursor: pointer;
-
-border: 1px solid rgb(217, 221, 233);
-/* position: absolute;
+  border: 1px solid rgb(217, 221, 233);
+  /* position: absolute;
 left: 0;
 top: 5px; */
-margin: 0;
-border-radius: 2px;
-position: relative;
-
-
+  margin: 0;
+  border-radius: 2px;
+  position: relative;
 }
-.form-check input+.custom-label img{
+
+.form-check input+.custom-label img {
   position: absolute;
   left: 50%;
   top: 50%;
-  transform: translate(-50%,-50%);
-width: 50%;
-height: auto;
-visibility: hidden;
-
+  transform: translate(-50%, -50%);
+  width: 50%;
+  height: auto;
+  visibility: hidden;
 }
-.form-check input:checked+.custom-label{
+
+.form-check input:checked+.custom-label {
   border-color: rgb(0, 174, 217);
   /* box-shadow: 4px ​3px 20px #0000009; */
   /* box-shadow: 1px 1px 26px #00000090; */
-
 }
-.form-check input:checked+.custom-label img{
+
+.form-check input:checked+.custom-label img {
   /* display: block; */
   visibility: visible;
 }
 
-.form-check .form-check-label{
+.form-check .form-check-label {
   color: rgb(117, 121, 137);
-font-size: 16px;
-line-height: 24px;
-text-transform: capitalize;
-padding-left: 10px;
-cursor: pointer;
-transition: color 0.3s;
+  font-size: 16px;
+  line-height: 24px;
+  text-transform: capitalize;
+  padding-left: 10px;
+  cursor: pointer;
+  transition: color 0.3s;
 }
-.form-check:hover .form-check-label{
+
+.form-check:hover .form-check-label {
   color: black
+}
+
+.yn-btns{
+  width: 350px;
+  border: 1px solid rgb(217, 221, 233);
+  border-right: 0;
+}
+
+.yn-btns label {
+  width: 100%;
+  text-transform: uppercase;
+  font-size: 16px;
+  text-align: center;
+  height: 36px;
+  width: 100%;
+  border: 0;
+  border-right: 1px solid rgb(217, 221, 233);
+  font-weight: bold;
+  max-width: 350px;
+  margin: auto;
+  display: block;
+  background: transparent;
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.yn-btns input{
+  /* display: none; */
+  position: absolute;
+}
+.yn-btns input:checked+label{
+  background: rgb(0, 97, 158);
+color: white;
 }

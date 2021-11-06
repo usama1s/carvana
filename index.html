@@ -24,9 +24,9 @@
 
   <section class="car-info w-f py-4">
     <div class="d-flex align-items-center">
-      <div class="img d-flex align-items-center justify-content-center">
+      <!-- <div class="img d-flex align-items-center justify-content-center">
         <img src="assets/images/car.png" alt="">
-      </div>
+      </div> -->
       <div class="info-side">
         <h2 class="sub-title">2016 audi A3</h2>
         <h3>1.8 Premium Sedan 4D</h3>
@@ -58,22 +58,7 @@
 
                 <p><b> We're happy to buy your car or have you trade it in with your purchase/ Which are ou most interested in?</b></p>
 
-                <div class="th-btns mt-3">
-                  <div class="d-flex p-0 row ">
-                    <div class="col-sm-4 p-0 m-0">
-                      <button class="flex-fill" type="button" name="button">sell</button>
 
-                    </div>
-                    <div class="col-sm-4 p-0 m-0">
-                      <button class="flex-fill" type="button" name="button">trade in</button>
-
-                    </div>
-                    <div class="col-sm-4 p-0 m-0 border-0">
-                      <button class="flex-fill active" type="button" name="button">not sure</button>
-
-                    </div>
-                  </div>
-                </div>
 
 
                 <hr class="c-hr">
@@ -548,186 +533,255 @@
                 <p class="mb-4">Please select the option that best describes the condition of your vehicle. This will help us wiht yoru real offer.</p>
                 <p> <b>Has your vehicle been in an accident.</b> </p>
 
-                <h1 class="title mb-4">premium features</h1>
-                <div class="row mb-3">
-                  <div class="col-lg-6 col-md-6 col-sm-6">
-                    <h2 class="sub-title mb-3">safety & security</h2>
+                <div class="th-btns mt-3">
+                  <div class="d-flex row ">
+                    <div class="col-sm-4 pr-0">
+                      <input id="no-accident" type="radio" name="accidents-d" value="" hidden>
+                      <label for="no-accident" class="flex-fill" type="button" name="button">No accidents</label>
 
+                    </div>
+                    <div class="col-sm-4 px-0">
+                      <input id="o-accident" type="radio" name="accidents-d" value="" hidden>
+                      <label for="o-accident" class="flex-fill" type="button" name="button">1 accident</label>
 
+                    </div>
+                    <div class="col-sm-4 pl-0">
+                      <input id="t-accident" type="radio" name="accidents-d" value="" hidden>
+                      <label for="t-accident" class="flex-fill" type="button" name="button">2+ accident</label>
 
-                    <label class="form-check" for="airbags">
-                      <div class="">
-                        <input class="form-check-input" type="checkbox" name="in" id="airbags">
-                        <label class="custom-label" for="airbags">
-                          <img src="assets/images/check-c.svg" alt="">
-                        </label>
-                        <label class="form-check-label default-t pl-4" for="airbags">
-                          F&R Side Air Bags
-                        </label>
-                      </div>
-                    </label>
+                    </div>
                   </div>
-                  <div class="col-lg-5 col-md-6 col-sm-6">
-                    <h2 class="sub-title mb-3">seats</h2>
+                </div>
+<hr class="c-hr">
+
+                <p> <b>Does your vehicle have any issues that would stop us from diriving it?</b> </p>
 
 
 
-                    <label class="form-check" for="seats">
-                      <div class="">
-                        <input class="form-check-input" type="checkbox" name="in" id="seats">
-                        <label class="custom-label" for="seats">
-                          <img src="assets/images/check-c.svg" alt="">
-                        </label>
-                        <label class="form-check-label default-t pl-4" for="seats">
-                          Heated Seats
-                        </label>
-                      </div>
-                    </label>
+                <div class="yn-btns mt-3">
+                  <div class="d-flex  row ">
+                    <div class="col-6 pr-0">
+                      <input id="yes" type="radio" name="acc" value="" hidden>
+                      <label for="yes" class="flex-fill" type="button" name="button">Yes</label>
+
+                    </div>
+                    <div class="col-6 pl-0">
+                      <input id="no" type="radio" name="acc" value="" hidden>
+                      <label for="no" class="flex-fill active" type="button" name="button">No</label>
+
+                    </div>
                   </div>
                 </div>
 
-
-                <div class="row">
-                  <div class="col-lg-6 col-md-6 col-sm-6">
-                    <h2 class="sub-title mb-3">Entertainment & Instrumentations</h2>
+<hr class="c-hr">
 
 
+              <h2 class="sub-title mb-3">Does your vehicle have any exterior damage?</h2>
 
-                    <label class="form-check" for="dvd">
-                      <div class="">
-                        <input class="form-check-input" type="checkbox" name="in" id="dvd">
-                        <label class="custom-label" for="dvd">
-                          <img src="assets/images/check-c.svg" alt="">
-                        </label>
-                        <label class="form-check-label default-t pl-4" for="dvd">
-                          DVD System
-                        </label>
-                      </div>
-                    </label>
-                    <label class="form-check" for="navigation">
-                      <div class="">
-                        <input class="form-check-input" type="checkbox" name="in" id="navigation">
-                        <label class="custom-label" for="navigation">
-                          <img src="assets/images/check-c.svg" alt="">
-                        </label>
-                        <label class="form-check-label default-t pl-4" for="navigation">
-                          Navigation System
-                        </label>
-                      </div>
-                    </label>
-                    <label class="form-check" for="audi">
-                      <div class="">
-                        <input class="form-check-input" type="checkbox" name="in" id="audi">
-                        <label class="custom-label" for="audi">
-                          <img src="assets/images/check-c.svg" alt="">
-                        </label>
-                        <label class="form-check-label default-t pl-4" for="audi">
-                          Audi Connect
-                        </label>
-                      </div>
-                    </label>
-                    <label class="form-check" for="psound">
-                      <div class="">
-                        <input class="form-check-input" type="checkbox" name="in" id="psound">
-                        <label class="custom-label" for="psound">
-                          <img src="assets/images/check-c.svg" alt="">
-                        </label>
-                        <label class="form-check-label default-t pl-4" for="psound">
-                          Premium Sound
-                        </label>
-                      </div>
-                    </label>
-
-                  </div>
-
-                  <div class="col-lg-5 col-md-6 col-sm-6">
-                    <h2 class="sub-title mb-3">Wheels & tires</h2>
-
-
-
-                    <label class="form-check" for="awheels">
-                      <div class="">
-                        <input class="form-check-input" type="checkbox" name="in" id="awheels">
-                        <label class="custom-label" for="awheels">
-                          <img src="assets/images/check-c.svg" alt="">
-                        </label>
-                        <label class="form-check-label default-t pl-4" for="awheels">
-                          Alloy Wheels
-                        </label>
-                      </div>
-                    </label>
-
-                    <label class="form-check" for="pwheels">
-                      <div class="">
-                        <input class="form-check-input" type="checkbox" name="in" id="pwheels">
-                        <label class="custom-label" for="pwheels">
-                          <img src="assets/images/check-c.svg" alt="">
-                        </label>
-                        <label class="form-check-label default-t pl-4" for="pwheels">
-                          Premium Wheels
-                        </label>
-                      </div>
-                    </label>
-
-                  </div>
+              <label class="form-check w-100" for="scratches">
+                <div class="">
+                  <input class="form-check-input" type="checkbox" name="ex-damage" id="scratches">
+                  <label class="custom-label" for="scratches">
+                    <img src="assets/images/check-c.svg" alt="">
+                  </label>
+                  <label class="form-check-label default-t pl-4" for="scratches">
+                    Scuffs, scratches, or chips
+                  </label>
                 </div>
+              </label>
+
+              <label class="form-check w-100" for="f-paint">
+                <div class="">
+                  <input class="form-check-input" type="checkbox" name="ex-damage" id="f-paint">
+                  <label class="custom-label" for="f-paint">
+                    <img src="assets/images/check-c.svg" alt="">
+                  </label>
+                  <label class="form-check-label default-t pl-4" for="f-paint">
+                    Fading paint
+                  </label>
+                </div>
+              </label>
+
+              <label class="form-check w-100" for="rust">
+                <div class="">
+                  <input class="form-check-input" type="checkbox" name="ex-damage" id="rust">
+                  <label class="custom-label" for="rust">
+                    <img src="assets/images/check-c.svg" alt="">
+                  </label>
+                  <label class="form-check-label default-t pl-4" for="rust">
+                    Rust
+                  </label>
+                </div>
+              </label>
+
+              <label class="form-check w-100" for="h-damage">
+                <div class="">
+                  <input class="form-check-input" type="checkbox" name="ex-damage" id="h-damage">
+                  <label class="custom-label" for="h-damage">
+                    <img src="assets/images/check-c.svg" alt="">
+                  </label>
+                  <label class="form-check-label default-t pl-4" for="h-damage">
+                    Hail damage
+                  </label>
+                </div>
+              </label>
+
+<hr class="c-hr">
+
+              <h2 class="sub-title mb-3">Does your vehicle have any interior damage beyond normal wear?</h2>
+
+              <label class="form-check w-100" for="stains">
+                <div class="">
+                  <input class="form-check-input" type="checkbox" name="ex-damage" id="stains">
+                  <label class="custom-label" for="stains">
+                    <img src="assets/images/check-c.svg" alt="">
+                  </label>
+                  <label class="form-check-label default-t pl-4" for="stains">
+                    Noticeable Stains
+                  </label>
+                </div>
+              </label>
+
+              <label class="form-check w-100" for="r-seats">
+                <div class="">
+                  <input class="form-check-input" type="checkbox" name="ex-damage" id="r-seats">
+                  <label class="custom-label" for="r-seats">
+                    <img src="assets/images/check-c.svg" alt="">
+                  </label>
+                  <label class="form-check-label default-t pl-4" for="r-seats">
+                    Rips or tears in seats
+                  </label>
+                </div>
+              </label>
+
+
+
+              <label class="form-check w-100" for="odors">
+                <div class="">
+                  <input class="form-check-input" type="checkbox" name="ex-damage" id="odors">
+                  <label class="custom-label" for="odors">
+                    <img src="assets/images/check-c.svg" alt="">
+                  </label>
+                  <label class="form-check-label default-t pl-4" for="odors">
+                    Persistent odors
+                  </label>
+                </div>
+              </label>
+
+              <label class="form-check w-100" for="d-systems">
+                <div class="">
+                  <input class="form-check-input" type="checkbox" name="ex-damage" id="d-systems">
+                  <label class="custom-label" for="d-systems">
+                    <img src="assets/images/check-c.svg" alt="">
+                  </label>
+                  <label class="form-check-label default-t pl-4" for="d-systems">
+                    Damaged entertainment, navigation or other systmes
+                  </label>
+                </div>
+              </label>
+
+              <label class="form-check w-100" for="d-dashboard">
+                <div class="">
+                  <input class="form-check-input" type="checkbox" name="ex-damage" id="d-dashboard">
+                  <label class="custom-label" for="d-dashboard">
+                    <img src="assets/images/check-c.svg" alt="">
+                  </label>
+                  <label class="form-check-label default-t pl-4" for="d-dashboard">
+                    Damaged dashboard or interior panels
+                  </label>
+                </div>
+              </label>
+
+
+
+
 
 
 
                 <hr class="c-hr">
 
 
+                <p> <b>Has your vehicle been smoked in?</b> </p>
+
+
+
+                <div class="yn-btns mt-3">
+                  <div class="d-flex  row ">
+                    <div class="col-6 pr-0">
+                      <input id="smoke-yes" type="radio" name="smoked" value="" hidden>
+                      <label for="smoke-yes" class="flex-fill" type="button" name="button">Yes</label>
+
+                    </div>
+                    <div class="col-6 pl-0">
+                      <input id="smoke-no" type="radio" name="smoked" value="" hidden>
+                      <label for="smoke-no" class="flex-fill active" type="button" name="button">No</label>
+
+                    </div>
+                  </div>
+                </div>
+
+<hr class="c-hr">
+
+<p> <b>What is the best way to describe your vehicle's overall condition?</b> </p>
+<div class="th-btns mt-3">
+  <div class="d-flex row ">
+    <div class="col-sm-4 pr-0 m-0">
+      <input id="p-great" type="radio" name="vehicle-condition" value="" hidden>
+      <label for="p-great" class="flex-fill" type="button" name="button">Pretty great</label>
+    </div>
+    <div class="col-sm-4 px-0">
+      <input id="j-okay" type="radio" name="vehicle-condition" value="" hidden>
+      <label for="j-okay" class="flex-fill" type="button" name="button">just okay</label>
+    </div>
+    <div class="col-sm-4 pl-0 border-0">
+      <input id="rought" type="radio" name="vehicle-condition" value="" hidden>
+      <label for="rought" class="flex-fill active" type="button" name="button">kind of rough</label>
+    </div>
+  </div>
+</div>
+
+
+<hr class="c-hr">
+
+
+<p> <b>How many keys do you have for this vehicle?</b> </p>
+
+
+
+<div class="yn-btns mt-3">
+  <div class="d-flex  row ">
+    <div class="col-6 pr-0">
+      <input id="o-key" type="radio" name="keys" value="" hidden>
+      <label for="o-keys" class="flex-fill" type="button" name="button">1 key</label>
+
+    </div>
+    <div class="col-6 pl-0">
+      <input id="t-keys" type="radio" name="keys" value="" hidden>
+      <label for="t-keys" class="flex-fill active" type="button" name="button">2+ keys</label>
+
+    </div>
+  </div>
+</div>
+  <hr class="c-hr">
+<p> <b>See yoru offer right away. Add your email and we'll also send you a copy.</b> </p>
 
                 <div class="form-field c-form" id="">
-                  <input type="text" id="mileage" name="mileage" size="10" required="" class="">
-                  <label for="mileage">Mileage</label>
+                  <input type="email" id="e-email" name="mileage" size="10" required="" class="">
+                  <label for="e-email">Email</label>
                 </div>
-                <div class="form-field c-form" id="">
-                  <input type="text" id="zcode" name="zcode" size="10" required="" class="">
-                  <label for="zcode">zip code</label>
-                </div>
+
+
+
 
                 <hr class="c-hr">
 
 
 
-                <hr class="c-hr">
 
-                <div class="o-info">
-                  <h1 class="title mb-3">transmission</h1>
-                  <div class="d-flex justify-content-start align-items-center">
-                    <div class="j-check d-flex justify-content-center align-items-center">
-                      <img src="assets/images/check.svg" alt="">
-                    </div>
-                    <p class="t-text my-0 ml-2">Auto, 6-Spd S Tronic</p>
-                  </div>
-                </div>
 
                 <hr class="c-hr">
 
-                <div class="o-info">
-                  <h1 class="title mb-3">drivetrain</h1>
-                  <div class="d-flex justify-content-start align-items-center">
-                    <div class="j-check d-flex justify-content-center align-items-center">
-                      <img src="assets/images/check.svg" alt="">
-                    </div>
-                    <p class="t-text my-0 ml-2">fwd</p>
-                  </div>
-                </div>
 
-                <hr class="c-hr">
-
-                <div class="o-info">
-                  <h1 class="title mb-3">engine</h1>
-                  <div class="d-flex justify-content-start align-items-center">
-                    <div class="j-check d-flex justify-content-center align-items-center">
-                      <img src="assets/images/check.svg" alt="">
-                    </div>
-                    <p class="t-text my-0 ml-2">4-Cyl, Turbo, 1.8 Liter</p>
-                  </div>
-                </div>
-
-                <hr class="c-hr">
 
                 <button class="b-btn active" type="button" name="button">Next</button>
 
