@@ -1,0 +1,9 @@
+@media (max-width:767px) {
+  .th-btns button{
+    border: 1px solid rgb(217, 221, 233);
+    margin: 10px auto;
+  }
+  .th-btns{
+    border: 0;
+  }
+}
